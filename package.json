@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "here is i am doing the node js in details",
+  "main": "node_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "no",
+    "keywords"
+  ],
+  "author": "Shriyash Pachpande",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.0",
+    "multer": "^1.4.5-lts.2",
+    "simple-node-logger": "^21.8.12"
+  }
+}

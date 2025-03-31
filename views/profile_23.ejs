@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile_23</title>
+    <style>
+        li{
+            list-style-type:decimal-leading-zero;
+        }
+    </style>
+</head>
+<body>
+
+    <!------------------This is coomon file for header or nav bar ------------------------------->
+    <%- include('common/header') %>
+    <!----------------------------------------------------------------------------------------------->
+    <p>Welcome <%= user.name %></p>
+    <p>Age : <%= user.age %></p>
+    <p>Email : <%= user.email %> </p>
+    <ul>
+        <% user.skills.forEach((item)=>{ %>
+            <li><%= item %></li>
+        <%}) %>
+    </ul>
+<!--------------------------------------------This is common file for footer------------------------------->
+    <%- include('common/footer') %>
+    <!---------------------------------------------------------------------------------------------->
+</body>
+</html>
